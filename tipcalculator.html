@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+<script>
+    var firstNumber = prompt("Enter the bill total : ");
+    firstNumber = parseInt(firstNumber);
+
+var x = .07;
+var y = .05;
+var tax = x * firstNumber //3.5
+var total_tax = tax + firstNumber //53.5
+var tip = y * total_tax //2.675
+var total_tip = tip + total_tax //56.175
+document.write("Your total is: $" + total_tip);
+
+</script>
+ </body>
+</html>
