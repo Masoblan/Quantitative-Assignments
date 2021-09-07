@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let first = prompt("Enter a Number");
+        let second = prompt("Enter a second number");
+        let op = prompt("Enter an operator,+,-,*,/ ");
+        first = parseInt(first);
+        second = parseInt(second);
+
+        var add = first + second
+        var sub = first - second
+        var mul = first * second
+        var div = first / second
+            
+        if (op == "+"){
+        document.write("Your number is: " + add);
+        }
+        else if (op == "-"){
+        document.write("Your number is: " + sub);
+        }
+        else if (op == "*"){
+        document.write("Your number is: " + mul);
+        }
+        else if (op == "/"){
+        document.write("Your number is: " + div);
+        }
+        if (!(isNaN(number))) {
+            alert("That is not a valid response!");}
+            
+    </script>
+</body>
+</html>
